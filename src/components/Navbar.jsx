@@ -28,75 +28,75 @@ function Navbar() {
           </a>
         </li>
         <li className="flex items-center gap-[24px] pl-[32px] py-[20px]">
-          <OverwievIcon />
           <NavLink
-            className={"text-[16px] leading-[20px] text-[#A4A6B3]"}
+            className={"flex items-center gap-[24px] text-[16px] leading-[20px] text-[#A4A6B3]"}
             to={"/"}
           >
+          <OverwievIcon />
             Overwiev
           </NavLink>
         </li>
         <li className="flex items-center gap-[24px] pl-[32px] py-[20px]">
-          <TicketsIcon />
           <NavLink
-            className={"text-[16px] leading-[20px] text-[#A4A6B3]"}
+            className={"flex items-center gap-[24px] text-[16px] leading-[20px] text-[#A4A6B3]"}
             to={"/tickets"}
           >
+          <TicketsIcon />
             Tickets
           </NavLink>
         </li>
         <li className="flex items-center gap-[24px] pl-[32px] py-[20px]">
-          <IdeasIcon />
           <NavLink
-            className={"text-[16px] leading-[20px] text-[#A4A6B3]"}
+            className ={"flex items-center gap-[24px] text-[16px] leading-[20px] text-[#A4A6B3]"}
             to={"/ideas"}
           >
+          <IdeasIcon />
             Ideas
           </NavLink>
         </li>
         <li className="flex items-center gap-[24px] pl-[32px] py-[20px]">
-          <ContactIcon />
           <NavLink
-            className={"text-[16px] leading-[20px] text-[#A4A6B3]"}
+            className={"flex items-center gap-[24px] text-[16px] leading-[20px] text-[#A4A6B3]"}
             to={"/contacts"}
           >
+          <ContactIcon />
             Contacts
           </NavLink>
         </li>
         <li className="flex items-center gap-[24px] pl-[32px] py-[20px]">
-          <AgentsIcon />
           <NavLink
-            className={"text-[16px] leading-[20px] text-[#A4A6B3]"}
+            className= {"flex items-center gap-[24px] text-[16px] leading-[20px] text-[#A4A6B3]"}
             to={"/agents"}
           >
+          <AgentsIcon />
             Agents
           </NavLink>
         </li>
         <li className="flex items-center gap-[24px] pl-[32px]  py-[20px]">
-          <ArticlesIcon />
           <NavLink
-            className={"text-[16px] leading-[20px] text-[#A4A6B3]"}
+            className={"flex items-center gap-[24px] text-[16px] leading-[20px] text-[#A4A6B3]"}
             to={"/articles"}
           >
+          <ArticlesIcon />
             Articles
           </NavLink>
         </li>
         <hr className="my-[16px] border-[1px] " />
         <li className="flex items-center gap-[24px] py-[20px] pl-[32px] ">
-          <SettingsIcon />
           <NavLink
-            className={"text-[16px] leading-[20px] text-[#A4A6B3]"}
+            className={"flex items-center gap-[24px] text-[16px] leading-[20px] text-[#A4A6B3]"}
             to={"/settings"}
           >
+          <SettingsIcon />
             Settings
           </NavLink>
         </li>
         <li className="flex items-center gap-[24px] py-[20px] pl-[32px] ">
-          <SubscriptionIcon />
           <NavLink
-            className={"text-[16px] leading-[20px] text-[#A4A6B3]"}
+            className={"flex items-center gap-[24px] text -[16px] leading-[20px] text-[#A4A6B3]"}
             to={"/subscription"}
           >
+          <SubscriptionIcon />
             Subscription
           </NavLink>
         </li>

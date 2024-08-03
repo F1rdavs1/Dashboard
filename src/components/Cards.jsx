@@ -4,7 +4,7 @@ function Cards({ title, count, extraStyle }) {
   return (
     <ul>
       <li
-        className={`py-[24px] w-[258px] hover:border-blue-800 group duration-300 flex flex-col border-[1px] rounded-md text-center bg-white ${extraStyle}`}
+        className={`py-[24px] w-[258px] hover:border-blue-800 group duration-300 flex flex-col border-[1px] rounded-md text-center bg-white`}
       >
         <span className="text-[19px] leading-[24px] group-hover:text-blue-800 text-[#9FA2B4] pb-[12px]">
           {title}

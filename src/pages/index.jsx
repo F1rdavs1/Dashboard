@@ -7,6 +7,8 @@ import Articles from "./Articles";
 import Settings from "./Settings";
 import Subscription from "./Subscription";
 import NotFound from "./NotFound";
+import NewTicket from "./NewTicket";
+import AboutTicket from "./AboutTicket";
 
 export {
   Overview,
@@ -18,4 +20,6 @@ export {
   Settings,
   Subscription,
   NotFound,
+  NewTicket,
+  AboutTicket
 };

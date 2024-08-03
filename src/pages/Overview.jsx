@@ -1,11 +1,18 @@
 import React from "react";
 import { AddIcon } from "../assets/Images/Icon";
 import Header from "../components/Header";
+import Cards from "../components/Cards";
 
 function Overview() {
   return (
     <section className="h-screen overflow-y-auto">
       <Header title={"Overwiev"} />
+      <div className="flex justify-between mx-[30px] mb-[20px]">
+        <Cards title={"Unresolved"} count={"60"} />
+        <Cards title={"Overdue"} count={"16"} />
+        <Cards title={"Open"} count={"43"} />
+        <Cards title={"On hold"} count={"64"} />
+      </div>
       <div className="bg-white mx-[30px] flex justify-between mb-[30px] rounded-md ">
         <div className="px-[32px] flex justify-between  w-full pt-[32px]">
           <div>
@@ -116,23 +123,23 @@ function Overview() {
             <h2 className="font-semibold text-[14px] leading-[14px] text-[#252733]">
               Waiting on Feature Request
             </h2>
-            <spa
+            <span
               className="font-semibold text-[14px] leading-[20px] text-[#9FA2B4]"
               n
             >
               914
-            </spa>
+            </span>
           </div>
           <div className="flex justify-between py-[20px]">
             <h2 className="font-semibold text-[14px] leading-[14px] text-[#252733]">
               Pending
             </h2>
-            <spa
+            <span
               className="font-semibold text-[14px] leading-[20px] text-[#9FA2B4]"
               n
             >
               281
-            </spa>
+            </span>
           </div>
         </li>
 
